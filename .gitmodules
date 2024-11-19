@@ -1,11 +1,11 @@
-[submodule "domains/company/bfm-fi-company-client"]
-	path = domains/company/bfm-fi-company-client
+[submodule "domains/company/client"]
+	path = domains/company/client
 	url = https://github.com/celerofinancas/bfm-fi-company-client.git
-[submodule "domains/company/bfm-fi-company-client-lib"]
-	path = domains/company/bfm-fi-company-client-lib
+[submodule "domains/company/library"]
+	path = domains/company/library
 	url = https://github.com/celerofinancas/bfm-fi-company-client-lib.git
-[submodule "domains/company/bfm-fi-company-command-api"]
-	path = domains/company/bfm-fi-company-command-api
+[submodule "domains/company/command-api"]
+	path = domains/company/command-api
 	url = https://github.com/celerofinancas/bfm-fi-company-command-api.git
 [submodule "celero-bfm-fi-lib"]
 	path = celero-bfm-fi-lib
