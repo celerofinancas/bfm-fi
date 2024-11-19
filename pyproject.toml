@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "bfm-fi"
+version = "0.1.0"
+description = "BFM FI gRPC Protocol Domains"
+authors = ["Maicon de Menezes <maicon.menezes@celero.com.br>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+grpcio = "^1.68.0"
+celero-conf-loader = { version = "0.2", source = "artifact-registry" }
+celero-idp = { version = "0.2", source = "artifact-registry" }
+python-keycloak = "^4.7.2"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+pytest = "^8.3.3"
+pytest-cov = "^6.0.0"
+pytest-mock = "^3.14.0"
+ipython = "^8.29.0"
+black = "^24.10.0"
+isort = "^5.13.2"
+mkdocs = "^1.6.1"
+mkdocs-material = "^9.5.44"
+grpcio-tools = "^1.68.0"
+
+[[tool.poetry.source]]
+name = "artifact-registry"
+url = "https://us-east1-python.pkg.dev/celero-main/celero-finance/simple/"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
